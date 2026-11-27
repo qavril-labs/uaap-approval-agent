@@ -12,4 +12,8 @@ SPEC = BotSpec(
     needs_model=True,
     needs_inbox=True,
     summary="Reads the approvals inbox; never approves or rejects.",
+    examples=(
+        "What is waiting for my approval?",
+        "Which approvals expire in the next day?",
+    ),
 )
